@@ -8,6 +8,10 @@
 - HTML/CSS
 - Git & GitHub
 
+## Live Demo
+
+[Live Demo Link](https://samuellekpor.github.io/)
+
 
 ## Authors
 
