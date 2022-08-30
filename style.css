@@ -134,7 +134,7 @@ body {
   align-content: center;
   grid-auto-flow: column;
   grid-template-columns: 1fr 1fr 3fr 1fr 1fr 2fr;
-  color: #5C6C7A;
+  color: #5c6c7a;
   align-items: center;
   justify-items: center;
 }
@@ -351,10 +351,6 @@ br {
 }
 
 .desktop {
-  display: none;
-}
-
-label {
   display: none;
 }
 
