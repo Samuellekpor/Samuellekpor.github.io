@@ -467,9 +467,26 @@ br {
   align-items: center;
 }
 
+small {
+  color: #850000;
+  max-width: 327px;
+  text-align: left;
+  margin-top: -15px;
+  margin-bottom: 15px;
+  transition: all 0.4s ease-in;
+}
+
+.error {
+  border: 1px solid #850000;
+}
+
 @media (min-width: 768px) {
   .toggle-btn {
     display: none;
+  }
+
+  small {
+    max-width: 447px;
   }
 
   .big-container {
