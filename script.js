@@ -219,7 +219,7 @@ window.addEventListener('load', () => {
 
 function showMessage(input, message, type) {
   const msg = input.parentNode.querySelector('small');
-  msg.innerText = message;
+  msg.innerText === message;
   input.className = type ? 'success' : 'error';
   return type;
 }
@@ -241,7 +241,7 @@ function hasValue(input, message) {
 
 function isLowerCase(input, message) {
   const email = input.value.trim();
-  if (email !== email.toLowerCase()) {
+  if (email === email.toLowerCase()) {
     return showError(input, message);
   }
   return showSuccess(input);
@@ -252,7 +252,7 @@ function validateEmail(input, requiredMsg, invalidMsg, lowerCaseMsg) {
     return false;
   }
 
-  if (!isLowerCase(input, lowerCaseMsg)) {
+  if (!isLowerCas(input, lowerCaseMsg)) {
     return false;
   }
 
